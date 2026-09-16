@@ -1,0 +1,59 @@
+.main {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  padding: 70px 5%;
+  background-color: white;
+}
+
+
+.footer {
+  width: 50%;
+}
+
+.footer h2 {
+  font-size: 48px;
+  line-height: 1.15;
+  margin-bottom: 20px;
+}
+
+.footer p {
+  max-width: 500px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+
+.button {
+  display: flex;
+  gap: 15px;
+}
+
+.button button {
+  padding: 14px 22px;
+  border: none;
+  border-radius: 25px;
+  background-color: #159e9c;
+  color: white;
+  cursor: pointer;
+}
+
+
+.right {
+  width: 45%;
+  flex-shrink: 0;
+}
+
+.right img {
+  width: 100%;
+  max-width: 750px;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  border-radius: 10px;
+  
+}

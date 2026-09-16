@@ -1,0 +1,50 @@
+
+.parents {
+  width: 100%;
+  background-color: white;
+}
+
+
+.Nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 40px;
+  background-color: #1e293b;
+}
+
+ 
+.Nav h3 {
+  color: white;
+  font-size: 24px;
+  margin: 0;
+}
+
+ 
+.Nav button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+ 
+.Nav button:hover {
+  color: #38bdf8;
+}
+
+ 
+.Nav button:last-child {
+  background-color: #2563eb;
+  border-radius: 6px;
+}
+
+.Nav button:last-child:hover {
+  background-color: #1d4ed8;
+}
+
+.main{
+    background-color:"white"
+}
